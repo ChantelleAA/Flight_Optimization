@@ -1,5 +1,5 @@
 # config.py
-WORKBOOK        = r"C:\path\FlightWorkbook.xlsx"
+WORKBOOK        = r"C:\Users\hp\Downloads\quantathon_flights\Flight_Optimization\Flight optimization.xlsx"
 DEPARTURE_DATES = ["2025-07-06", "2025-07-07"]
 RETURN_DATE     = "2025-07-09"
 CURRENCY        = "USD"

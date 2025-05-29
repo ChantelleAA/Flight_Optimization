@@ -1,0 +1,166 @@
+{
+  "routes": [
+    {
+      "id": "LFW-ACC",
+      "origin": "LFW",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["ASKY", "Africa World Airlines", "Ethiopian Airlines", "Air Côte d'Ivoire"]
+    },
+    {
+      "id": "JNB-ACC",
+      "origin": "JNB",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 8 },
+      "airlines": ["Kenya Airways", "Ethiopian Airlines", "RwandAir", "Qatar Airways", "Emirates"]
+    },
+    {
+      "id": "CAI-ACC",
+      "origin": "CAI",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["EgyptAir", "Ethiopian Airlines", "Kenya Airways"]
+    },
+    {
+      "id": "KTM-ACC",
+      "origin": "KTM",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Qatar Airways", "Turkish Airlines", "Emirates"]
+    },
+    {
+      "id": "DEL-ACC",
+      "origin": "DEL",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Ethiopian Airlines", "Qatar Airways", "Turkish Airlines", "Emirates"]
+    },
+    {
+      "id": "ALG-ACC",
+      "origin": "ALG",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 3 },
+      "airlines": ["Turkish Airlines", "Ethiopian Airlines"]
+    },
+    {
+      "id": "KGL-ACC",
+      "origin": "KGL",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 3 },
+      "airlines": ["RwandAir", "Ethiopian Airlines", "Kenya Airways"]
+    },
+    {
+      "id": "DLA-ACC",
+      "origin": "DLA",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 4 },
+      "airlines": ["ASKY", "Ethiopian Airlines", "Kenya Airways"]
+    },
+    {
+      "id": "LOS-ACC",
+      "origin": "LOS",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Africa World Airlines", "Air Peace", "ASKY"]
+    },
+    {
+      "id": "NBO-ACC",
+      "origin": "NBO",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Kenya Airways", "Ethiopian Airlines"]
+    },
+    {
+      "id": "NSI-ACC",
+      "origin": "NSI",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["ASKY", "Ethiopian Airlines", "Kenya Airways"]
+    },
+    {
+      "id": "FCO-ACC",
+      "origin": "FCO",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 2 },
+      "airlines": ["Turkish Airlines", "Ethiopian Airlines", "TAP Air Portugal"]
+    },
+    {
+      "id": "TNR-ACC",
+      "origin": "TNR",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Ethiopian Airlines", "Kenya Airways", "Turkish Airlines"]
+    },
+    {
+      "id": "YYZ-ACC",
+      "origin": "YYZ",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Ethiopian Airlines", "Turkish Airlines", "KLM"]
+    },
+    {
+      "id": "TUN-ACC",
+      "origin": "TUN",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Turkish Airlines", "Ethiopian Airlines"]
+    },
+    {
+      "id": "MAD-ACC",
+      "origin": "MAD",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Iberia", "Turkish Airlines", "Ethiopian Airlines"]
+    },
+    {
+      "id": "CDG-ACC",
+      "origin": "CDG",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Air France", "Ethiopian Airlines", "Turkish Airlines"]
+    },
+    {
+      "id": "JFK-ACC",
+      "origin": "JFK",
+      "dest": "ACC",
+      "depart": ["2025-07-06", "2025-07-07"],
+      "return": "2025-07-09",
+      "pax": { "adults": 1 },
+      "airlines": ["Delta Air Lines", "United Airlines", "Ethiopian Airlines"]
+    }
+  ]
+}

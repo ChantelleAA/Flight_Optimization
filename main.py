@@ -6,19 +6,17 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-import Flight_Optimization.config as config
+import config as config
 
-# --------------------------- logging setup ---------------------------
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s  %(message)s",
     handlers=[
-        logging.StreamHandler(),                       # console
-        logging.FileHandler(config.LOG_FILE, mode="w") # file
+        logging.StreamHandler(),                      
+        logging.FileHandler(config.LOG_FILE, mode="w")
     ]
 )
 
-# --------------------------- helpers ---------------------------
 def clean_code(city):
     """'Johannesburg (JNB)' → 'jnb'."""
     m = re.search(r"\((\w{3})\)", city)
@@ -63,7 +61,7 @@ def fetch_price(driver, url):
 
 # --------------------------- main ---------------------------
 def main():
-    df_countries = pd.read_excel(config.WORKBOOK, sheet_name="Countries", engine="openpyxl")
+    df_countries = pd.read_excel(config.WORKBOOK, sheet_name="countries", engine="openpyxl")
     unique_cities = df_countries[config.CITY_COL].unique()
 
     rows = []
